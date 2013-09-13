@@ -4,8 +4,13 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 
 WriteMakefile (
-    NAME			=> 'Proc::PID::File',
-    VERSION_FROM	=> 'File.pm',
-	AUTHOR          => 'Erick Calder <ecalder@cpan.org>',
+    NAME            => 'Proc::PID::File',
+    VERSION_FROM    => 'File.pm',
+    AUTHOR          => 'Erick Calder <ecalder@cpan.org>',
     ABSTRACT        => 'A module to manage PID files',
-	);
+    META_MERGE      => {
+        resources => {
+            repository => 'https://github.com/ekkis/Proc-PID-File',
+        },
+    },
+);
