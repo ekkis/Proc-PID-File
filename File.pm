@@ -106,7 +106,7 @@ The following methods are provided:
 
 =head2 new [hash[-ref]]
 
-This method is used to create an instance object.  It automatically calls the I<-E<gt>file()> method described below and receives the same paramters.  For a listing of valid keys in this hash please refer to the aforementioned method documentation below.
+This method is used to create an instance object.  It automatically calls the I<-E<gt>file()> method described below and receives the same parameters.  For a listing of valid keys in this hash please refer to the aforementioned method documentation below.
 
 In addition to the above, the following constitute valid keys:
 
